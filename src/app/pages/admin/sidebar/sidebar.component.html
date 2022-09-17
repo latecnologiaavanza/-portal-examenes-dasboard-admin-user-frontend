@@ -1,0 +1,26 @@
+<mat-card>
+  <mat-action-list>
+    <div mat-subheader>Menu</div>
+    <button routerLink = "/admin" mat-list-item>
+      <mat-icon mat-list-icon>home</mat-icon> Inicio
+    </button>
+    <button mat-list-item routerLink = "/admin/profile">
+      <mat-icon mat-list-icon>account_circle</mat-icon>Perfil
+    </button>
+    <button mat-list-item routerLink = "/admin/categorias">
+      <mat-icon mat-list-icon>list</mat-icon>Categorías
+    </button>
+    <button mat-list-item routerLink = "/admin/add-categoria">
+      <mat-icon mat-list-icon>add_circle_outline</mat-icon>Agregar categoría
+    </button>
+    <button mat-list-item routerLink = "/admin/examenes">
+      <mat-icon mat-list-icon>quiz</mat-icon>Cuestionarios
+    </button>
+    <button mat-list-item routerLink = "/admin/add-examen">
+      <mat-icon mat-list-icon>add</mat-icon>Agregar cuestionario
+    </button>
+    <button mat-list-item (click) = "logout()">
+      <mat-icon mat-list-icon>logout</mat-icon>Salir
+    </button>
+  </mat-action-list>
+</mat-card>

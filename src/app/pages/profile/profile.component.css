@@ -1,0 +1,16 @@
+.profile-image{
+  max-width: 150px;
+  max-height: 150px;
+  border: 2px solid gainsboro;
+  border-radius: 50%;
+}
+
+.table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table tr td{
+  padding: 15px 10px;
+  border: 0.5px solid gainsboro;
+}
